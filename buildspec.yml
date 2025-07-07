@@ -8,6 +8,6 @@ phases:
   build:
     commands:
       - echo Building frontend...
-      - cd ../../application-code/web-tier/Dockerfile
-      - Docker build -t webapp .
+      - cd application-code/web-tier
+      - docker build -t webapp .
       - echo Build complete.
